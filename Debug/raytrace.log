@@ -1,0 +1,70 @@
+﻿Der Buildvorgang wurde am 13.06.2013 16:01:14 gestartet.
+     1>Projekt "C:\Users\matze\Dropbox\Studium\6.Semester\Computergrafik\raytrace\raytrace.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>PreBuildEvent:
+         cd bin && flex -o..\lex.yy.c ..\raylex.l && bison -l -o ..\rayyacc.tab.c ..\rayyacc.y
+         :VCEnd
+         ..\rayyacc.y: Warnung: 15 Nicht-Terminale, die in Grammatik nutzlos sind
+         ..\rayyacc.y: Warnung: 22 Regeln, die in Grammatik nutzlos sind
+         ..\\rayyacc.y:81.1-23: Warnung: Nicht-Terminal nutzlos in Grammatik: some_viewing_parameters
+         ..\\rayyacc.y:83.7-85.7: Warnung: Nicht-Terminal nutzlos in Grammatik: $@1
+         ..\\rayyacc.y:86.5-22: Warnung: Nicht-Terminal nutzlos in Grammatik: viewing_parameters
+         ..\\rayyacc.y:109.1-18: Warnung: Nicht-Terminal nutzlos in Grammatik: picture_parameters
+         ..\\rayyacc.y:110.26-42: Warnung: Nicht-Terminal nutzlos in Grammatik: picture_parameter
+         ..\\rayyacc.y:105.26-42: Warnung: Nicht-Terminal nutzlos in Grammatik: viewing_parameter
+         ..\\rayyacc.y:115.7-16: Warnung: Nicht-Terminal nutzlos in Grammatik: resolution
+         ..\\rayyacc.y:116.7-16: Warnung: Nicht-Terminal nutzlos in Grammatik: background
+         ..\\rayyacc.y:120.7-14: Warnung: Nicht-Terminal nutzlos in Grammatik: eyepoint
+         ..\\rayyacc.y:121.7-12: Warnung: Nicht-Terminal nutzlos in Grammatik: lookat
+         ..\\rayyacc.y:124.7-8: Warnung: Nicht-Terminal nutzlos in Grammatik: up
+         ..\\rayyacc.y:122.7-10: Warnung: Nicht-Terminal nutzlos in Grammatik: fovy
+         ..\\rayyacc.y:123.7-12: Warnung: Nicht-Terminal nutzlos in Grammatik: aspect
+         ..\\rayyacc.y:163.1-15: Warnung: Nicht-Terminal nutzlos in Grammatik: global_lighting
+         ..\\rayyacc.y:63.35-42: Warnung: Nicht-Terminal nutzlos in Grammatik: angleVal
+         ..\\rayyacc.y:83.7-85.7: Warnung: Regeln nutzlos in Grammatik: $@1: /* leer */
+         ..\\rayyacc.y:83.7-98.7: Warnung: Regeln nutzlos in Grammatik: some_viewing_parameters: $@1 viewing_parameters
+         ..\\rayyacc.y:105.7-42: Warnung: Regeln nutzlos in Grammatik: viewing_parameters: viewing_parameters viewing_parameter
+         ..\\rayyacc.y:106.6: Warnung: Regeln nutzlos in Grammatik: viewing_parameters: /* leer */
+         ..\\rayyacc.y:110.7-42: Warnung: Regeln nutzlos in Grammatik: picture_parameters: picture_parameters picture_parameter
+         ..\\rayyacc.y:111.7-23: Warnung: Regeln nutzlos in Grammatik: picture_parameters: picture_parameter
+         ..\\rayyacc.y:115.7-16: Warnung: Regeln nutzlos in Grammatik: picture_parameter: resolution
+         ..\\rayyacc.y:116.7-16: Warnung: Regeln nutzlos in Grammatik: picture_parameter: background
+         ..\\rayyacc.y:120.7-14: Warnung: Regeln nutzlos in Grammatik: viewing_parameter: eyepoint
+         ..\\rayyacc.y:121.7-12: Warnung: Regeln nutzlos in Grammatik: viewing_parameter: lookat
+         ..\\rayyacc.y:122.7-10: Warnung: Regeln nutzlos in Grammatik: viewing_parameter: fovy
+         ..\\rayyacc.y:123.7-12: Warnung: Regeln nutzlos in Grammatik: viewing_parameter: aspect
+         ..\\rayyacc.y:124.7-8: Warnung: Regeln nutzlos in Grammatik: viewing_parameter: up
+         ..\\rayyacc.y:128.7-129.48: Warnung: Regeln nutzlos in Grammatik: resolution: RESOLUTION index index
+         ..\\rayyacc.y:133.7-134.54: Warnung: Regeln nutzlos in Grammatik: background: BACKGROUND colorVal colorVal colorVal
+         ..\\rayyacc.y:139.7-140.53: Warnung: Regeln nutzlos in Grammatik: eyepoint: EYEPOINT realVal realVal realVal
+         ..\\rayyacc.y:144.7-145.51: Warnung: Regeln nutzlos in Grammatik: lookat: LOOKAT realVal realVal realVal
+         ..\\rayyacc.y:149.7-150.46: Warnung: Regeln nutzlos in Grammatik: up: UP realVal realVal realVal
+         ..\\rayyacc.y:154.7-155.34: Warnung: Regeln nutzlos in Grammatik: fovy: FOVY realVal
+         ..\\rayyacc.y:159.7-160.37: Warnung: Regeln nutzlos in Grammatik: aspect: ASPECT realVal
+         ..\\rayyacc.y:164.7-165.52: Warnung: Regeln nutzlos in Grammatik: global_lighting: AMBIENCE colorVal colorVal colorVal
+         ..\\rayyacc.y:373.12-381.5: Warnung: Regeln nutzlos in Grammatik: angleVal: realVal
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\raytrace.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Ray.cpp Surface.cpp Vector.cpp
+         Vector.cpp
+         Surface.cpp
+         Ray.cpp
+         Code wird generiert...
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt rayyacc.tab.c
+         rayyacc.tab.c
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\matze\Dropbox\Studium\6.Semester\Computergrafik\raytrace\Debug\raytrace.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\matze\Dropbox\Studium\6.Semester\Computergrafik\raytrace\Debug\raytrace.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\matze\Dropbox\Studium\6.Semester\Computergrafik\raytrace\Debug\raytrace.lib" /MACHINE:X86 Debug\Color.obj
+         Debug\Image.obj
+         Debug\Light.obj
+         Debug\Objekt.obj
+         Debug\Property.obj
+         Debug\Ray.obj
+         Debug\raytrace.obj
+         Debug\rayyacc.tab.obj
+         Debug\stdafx.obj
+         Debug\Surface.obj
+         Debug\Vector.obj
+         raytrace.vcxproj -> C:\Users\matze\Dropbox\Studium\6.Semester\Computergrafik\raytrace\Debug\raytrace.exe
+     1>Die Erstellung des Projekts "C:\Users\matze\Dropbox\Studium\6.Semester\Computergrafik\raytrace\raytrace.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:16.46
